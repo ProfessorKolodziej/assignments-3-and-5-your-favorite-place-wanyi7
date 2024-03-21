@@ -1,11 +1,521 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Liu+Jian+Mao+Cao&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Liu+Jian+Mao+Cao&family=Marck+Script&family=Satisfy&display=swap');
+body{
+	background-color: #E8E4E5;
+}
+@media screen and (min-width : 300px) {
+	.title{
+		font-size: 35px;
+		font-family: "Liu Jian Mao Cao", cursive;
+		font-weight: 300;
+		position: absolute;
+		top: 1%;
+		left: 30%;
+		color: #4D4046;
+	}
+	.background-img{
+		margin: auto;
+		width: 360px;
+		height: 200px;
+	}
+	.background-img img{
+		width: 100%;
+		height: 100%;
+	}
+	.navbar{
+		text-decoration: none;
+	
+		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		float: left;
+		margin-left: 1px;
+		line-height: 2;
+		color:#652917;
+	}
+	.brush img{
+		width: 41vh;
+		height: 15vh;
+
+	}
+	.title-text{
+		text-align: center;
+		margin: auto;
+		font-family: "Inknut Antiqua", serif;
+  		font-weight: 400;
+  		font-style: normal;
+		font-size: 10px;
+		line-height: 1.6;
+	}
+	h2{
+		font-size: 35px;
+		position: absolute;
+		left: 180px;
+		color: white;
+		font-family: "Satisfy", cursive;
+		font-weight: 400;
+		font-style: normal;
+	}
+	.div1 img{
+		width: 54vh;
+		height: 13vh;
+	}
+	h3{
+		font-family: "Marck Script", cursive;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 30px;
+		color: #988079;
+		text-align: center;
+	}
+	.img-right1{
+		float: right;
+	}
+	.content-text1{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	button{
+		background-color:#D5CCCB ;
+		Border: 2px solid #652917;
+		position: relative;
+		padding: 5px 10px;
+	}
+	.img-right2{
+		float: right;
+	}
+	.content-text2{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	.img-right3{
+		float: right;
+	}
+	.content-text3{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	.img-right4{
+		float: right;
+	}
+	.content-text4{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	.img-right5{
+		float: right;
+	}
+	.content-text5{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	.background-img1{
+		background-size: cover;
+		background-image: url('src/images/experience.png');
+		background-repeat: no-repeat;
+		height: 200px;
+	}
+	.list{
+		position: absolute;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
+	}
+	
+}
+
+@media screen and (min-width : 768px){
+	.background-img{
+		margin: auto;
+		width: 800px;
+		height: 500px;
+	}
+	.background-img img{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.title{
+		font-size: 60px;
+		font-family: "Liu Jian Mao Cao", cursive;
+		font-weight: 300;
+		position: absolute;
+		top: 7%;
+		left: 35%;
+		color: #4D4046;
+	}
+	.navbar{
+		text-decoration: none;
+		display: inline-block;
+		list-style: none;
+		font-size: 20px;
+		border: solid rgb(234, 189, 189) 4px;
+		line-height: 2;
+		color:#652917;
+	}	
+	h2{
+		font-size: 60px;
+		position: absolute;
+		left: 180px;
+		color: white;
+		font-family: "Satisfy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		position: absolute;
+		left: 30%;
+		top: 40%;
+	}
+	.brush img{
+		width: 40vh;
+		height: 10vh;
+	}
+	.title-text{
+		text-align: center;
+		margin: auto;
+		font-family: "Inknut Antiqua", serif;
+  		font-weight: 400;
+  		font-style: normal;
+		font-size: 16px;
+		line-height: 1.8;
+	}
+	.div1{
+		margin-top: 7%;
+	}
+	.div1 img{
+		width: 68vh;
+	}
+	h3{
+		font-family: "Marck Script", cursive;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 60px;
+		color: #988079;
+		text-align: center;
+	}
+	.img-right1{
+		float: right;
+	}
+	.img-right1 img{
+		height: 25vh;
+		width: 25vh;
+	}
+	.content-text1{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 15px;
+	}
+	li{
+		font-size: 20px;
+		font-weight: 600;
+	}
+	button{
+		margin-top: 120px;
+		background-color:#D5CCCB ;
+		Border: 2px solid #652917;
+		position: relative;
+		padding: 5px 10px;
+	}
+	.img-right2{
+		float: right;
+	}
+	.img-right2 img{
+		height: 25vh;
+		width: 25vh;
+	}
+	.content-text2{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 15px;
+	}
+	.img-right3{
+		float: right;
+	}
+	.img-right3 img{
+		height: 25vh;
+		width: 25vh;
+	}
+	.content-text3{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 15px;
+	}
+	.img-right4{
+		float: right;
+	}
+	.img-right4 img{
+		height: 25vh;
+		width: 25vh;
+	}
+	.content-text4{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 15px;
+	}
+	.img-right5{
+		float: right;
+	}
+	.img-right5 img{
+		height: 25vh;
+		width: 25vh;
+	}
+	.content-text5{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 15px;
+	}
+	.div2{
+		margin-top: 7%;
+		left: 1%;
+	}
+	.div2 img{
+		width: 68vh;
+		height: 15vh;
+	}
+	.div3{
+		margin-top: 9%;
+		left: 1%;
+	}
+	.div3 img{
+		width: 68vh;
+		height: 15vh;
+	}
+	.background-img1{
+		margin: auto;
+		width: 800px;
+		height: 500px;
+	}
+	.background-img1 img{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.list{
+		position: absolute;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
 	}
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
+@media screen and (min-width : 992px){
+	.background-img{
+		margin: auto;
+		width: 1400px;
+		height:700px;
+	}
+	.background-img img{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.title{
+		font-size: 100px;
+		font-family: "Liu Jian Mao Cao", cursive;
+		font-weight: 300;
+		position: absolute;
+		top: 7%;
+		left: 35%;
+		color: #4D4046;
+	}
+	.navbar{
+		text-decoration: none;
+		display: inline-block;
+		list-style: none;
+		font-size: 80px;
+		border: solid rgb(234, 189, 189) 4px;
+		line-height: 2;
+		color:#652917;
+	}	
+	h2{
+		font-size: 120px;
+		position: absolute;
+		color: white;
+		font-family: "Satisfy", cursive;
+		font-weight: 400;
+		font-style: normal;
+		position: absolute;
+		left: 45%;
+		top: 105%;
+	}
+	.brush{
+		margin-left: 20%;
+	}
+	.brush img{
+		width: 1000px;
+		height:210px;
+	}
+	.title-text{
+		text-align: center;
+		margin: auto;
+		font-family: "Inknut Antiqua", serif;
+  		font-weight: 400;
+  		font-style: normal;
+		font-size: 25px;
+		line-height: 1.8;
+	}
+	.div1{
+		margin-top: 10%;
+		margin-left: 1%;
+	}
+	.div1 img{
+		width: 1400px;
+		height: 250px;
+	}
+	h3{
+		font-family: "Marck Script", cursive;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 120px;
+		color: #988079;
+		text-align: center;
+	}
+	.img-right1{
+		float: right;
+	}
+	.img-right1 img{
+		width: 500px;
+		height: 500px;
+	}
+	.content-text1{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 20px;
+	}
+	li{
+		font-size: 25px;
+		font-weight: 800;
+	}
+	button{
+		margin-top: 270px;
+		background-color:#D5CCCB ;
+		Border: 2px solid white;
+		position: relative;
+		padding: 5px 10px;
+	}
+	.img-right2{
+		float: right;
+	}
+	.img-right2 img{
+		width: 500px;
+		height: 500px;
+	}
+	.content-text2{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 20px;
+	}
+	.img-right3{
+		float: right;
+	}
+	.img-right3 img{
+		width: 500px;
+		height: 500px;
+	}
+	.content-text3{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 20px;
+	}
+	.img-right4{
+		float: right;
+	}
+	.img-right4 img{
+		width: 500px;
+		height: 500px;
+	}
+	.content-text4{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 20px;
+	}
+	.img-right5{
+		float: right;
+	}
+	.img-right5 img{
+		width: 500px;
+		height: 500px;
+	}
+	.content-text5{
+		margin-top: 20px;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 20px;
+	}
+	.div2{
+		margin-top: 10%;
+		margin-left: 1%;
+	}
+	.div2 img{
+		width: 1400px;
+		height: 250px;
+	}
+	.div3{
+		margin-top: 10%;
+		margin-left: 1%;
+	}
+	.div3 img{
+		width: 1400px;
+		height: 250px;
+	}
+	.background-img1{
+		margin: auto;
+		width: 1300px;
+		height: 700px;
+	}
+	.background-img1 img{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.list{
+		position: absolute;
+		font-family: "Inknut Antiqua", serif;
+		font-weight: 400;
+		font-style: normal;
+	 	font-size: 10px;
 	}
 }
