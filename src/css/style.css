@@ -60,6 +60,9 @@ body{
 		font-weight: 400;
 		font-style: normal;
 	}
+	.div1{
+		margin-top: 7%;
+	}
 	.div1 img{
 		width: 54vh;
 		height: 13vh;
@@ -75,6 +78,10 @@ body{
 	.img-right1{
 		float: right;
 	}
+	ol{
+		font-size: 15px;
+		font-weight:500;
+	}
 	.content-text1{
 		margin-top: 20px;
 		font-family: "Inknut Antiqua", serif;
@@ -82,11 +89,12 @@ body{
 		font-style: normal;
 	 	font-size: 10px;
 	}
-	button{
+	.button{
 		background-color:#D5CCCB ;
 		Border: 2px solid #652917;
-		position: relative;
-		padding: 5px 10px;
+		padding: 0 0;
+		text-align: center;
+		width: 80px;
 	}
 	.img-right2{
 		float: right;
@@ -220,6 +228,10 @@ body{
 		height: 25vh;
 		width: 25vh;
 	}
+	ol{
+		font-size: 26px;
+		font-weight:500;
+	}
 	.content-text1{
 		margin-top: 20px;
 		font-family: "Inknut Antiqua", serif;
@@ -231,12 +243,14 @@ body{
 		font-size: 20px;
 		font-weight: 600;
 	}
-	button{
+	.button{
 		margin-top: 120px;
 		background-color:#D5CCCB ;
 		Border: 2px solid #652917;
 		position: relative;
 		padding: 5px 10px;
+		width: 280px;
+		margin-bottom: 120px;
 	}
 	.img-right2{
 		float: right;
@@ -405,6 +419,10 @@ body{
 	}
 	.img-right1{
 		float: right;
+	}
+	ol{
+		font-size: 40px;
+		font-weight:500;
 	}
 	.img-right1 img{
 		width: 500px;
